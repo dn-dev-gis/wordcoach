@@ -1,1 +1,1 @@
-web: gunicorn wordcoach_project.wsgi
+web: gunicorn wordcoach_project.wsgi --log-file -
