@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<div class="pages main_medium">
+
+  <h4 class="text-center warning">wrong</h4>
+  <p class="text-center">Correct translation: {{ eng }} = {{ kis }}</p>
+
+  <br>
+
+  <div class="centerbutton text-center">
+    <a href="{% url 'learn' %}"><button type="submit" class="btn btn-success">Next</button></a>
+  </div>
+
+</div>
+
+{% endblock content %}

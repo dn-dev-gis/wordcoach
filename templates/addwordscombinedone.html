@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<div class="pages main_medium">
+
+  <h4 class="text-center">combined with existing word</h4>
+  <p class="text-center">The new entry is: {{ eng }} = {{ kis }}</p>
+
+  <br>
+
+  <div class="centerbutton text-center">
+    <a href="{% url 'add' %}"><button type="submit" class="btn btn-success">Next</button></a>
+  </div>
+
+</div>
+
+{% endblock content %}

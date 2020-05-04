@@ -1,0 +1,76 @@
+body, html, p, nav, div, section {
+  margin: 0;
+  padding:0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Ubuntu', sans-serif;
+  padding-bottom: 1rem;
+}
+
+h2, h3 {
+  padding-top: 1rem;
+}
+
+.btn-link {
+  padding:0;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border: 0;
+}
+
+.centerbutton {
+  padding-top: 2rem;
+}
+
+.warning {
+  color: red;
+}
+
+.navigation {
+  background-color: #9AD0EC;
+}
+
+.correct {
+  color: green;
+}
+
+.container {
+  padding-top: 0.8rem;
+  padding-bottom: 0.4rem;
+}
+
+.nav-link: hover {
+  color: #0891C6;
+}
+
+p {
+  color: grey;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+  font-size: 0.9rem;
+  padding-top: 0.3rem;
+}
+
+.nav-link {
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding-top: 0.3rem;
+}
+
+.main_medium {
+  padding: 1rem 15%;
+}
+
+.pages {
+  padding: 2.5rem 20%;
+}
+
+.regular-text {
+  padding-bottom: 1rem;
+  font-family: 'Manrope', sans-serif;
+}

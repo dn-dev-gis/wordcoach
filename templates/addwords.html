@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<div class="pages main_medium">
+
+  <h4 class="text-center">add new word</h4>
+
+  <form method="POST">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <div class="warning">{{ error }}</div>
+    <div class="centerbutton text-center">
+      <button type="submit" class="btn btn-success">Add</button>
+    </div>
+  </form>
+
+</div>
+
+{% endblock content %}

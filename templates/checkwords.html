@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<div class="pages main_medium">
+
+  <h4 class="text-center">study now</h4>
+
+  <br>
+
+  <form method="POST">
+    {% csrf_token %}
+    <input class="form-control" readonly name="clueword" value="{{ eng }}">
+    <br>
+
+    {{ form|crispy }}
+    <div class="warning">{{ error }}</div>
+    <div class="centerbutton text-center">
+      <button type="submit" class="btn btn-success">Check</button>
+    </div>
+  </form>
+
+</div>
+
+{% endblock content %}
